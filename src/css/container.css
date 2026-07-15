@@ -3,17 +3,21 @@
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 16px; /* Тут він є */
 }
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 16px; /* Додаємо сюди */
   }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1158px; /* Зазвичай за макетом GoIT для десктопа використовують 1158px або 1200px */
+    padding: 0 15px; /* Додаємо сюди безпечний відступ для десктопа */
   }
 }
